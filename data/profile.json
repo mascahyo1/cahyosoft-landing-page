@@ -1,0 +1,37 @@
+{
+  "company": {
+    "name": "Cahyosoft",
+    "shortName": "CS",
+    "tagline": "Solusi pengembangan web dan ERP terpercaya untuk mengakselerasi transformasi digital bisnis Anda.",
+    "description": "Cahyosoft adalah software house dan konsultan IT yang berfokus pada pengembangan aplikasi web modern dan solusi ERP untuk bisnis skala UKM hingga enterprise.",
+    "yearFounded": 2021,
+    "yearsExperience": 5,
+    "totalClients": 100,
+    "totalProjects": 50
+  },
+  "contact": {
+    "whatsapp": "6281234567890",
+    "email": {
+      "general": "info@cahyosoft.com",
+      "privacy": "privacy@cahyosoft.com",
+      "legal": "legal@cahyosoft.com"
+    }
+  },
+  "socialMedia": {
+    "facebook": "https://facebook.com/cahyosoft",
+    "instagram": "https://instagram.com/cahyosoft",
+    "linkedin": "https://linkedin.com/company/cahyosoft",
+    "github": "https://github.com/cahyosoft",
+    "twitter": ""
+  },
+  "address": {
+    "street": "",
+    "city": "",
+    "province": "",
+    "country": "Indonesia"
+  },
+  "copyright": {
+    "year": 2026,
+    "text": "Hak Cipta Dilindungi."
+  }
+}

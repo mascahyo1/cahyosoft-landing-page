@@ -34,10 +34,11 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: 'Cahyosoft menyediakan jasa konsultasi web, pengembangan web kustom, dan solusi ERP terlengkap (HRIS, Akunting, POS, Inventory, CRM) untuk bisnis Anda.' }
+        { name: 'description', content: 'Cahyosoft menyediakan jasa konsultasi web, pengembangan web kustom, dan solusi ERP terlengkap (HRIS, Akunting, POS, Inventory, CRM) untuk bisnis Anda.' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+        { rel: 'alternate icon', type: 'image/x-icon', href: '/favicon.ico' }
       ]
     }
   }
