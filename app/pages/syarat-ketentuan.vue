@@ -87,8 +87,8 @@
               Pertanyaan tentang Syarat & Ketentuan ini dapat dikirim ke:
             </p>
             <ul class="mt-2 space-y-2 text-gray-600 dark:text-gray-400">
-              <li><i class="fas fa-envelope text-blue-500 mr-2"></i> legal@cahyosoft.com</li>
-              <li><i class="fas fa-globe text-blue-500 mr-2"></i> www.cahyosoft.com</li>
+              <li v-if="profile.contact.email.legal"><i class="fas fa-envelope text-blue-500 mr-2"></i> {{ profile.contact.email.legal }}</li>
+              <li v-if="profile.contact.email.general"><i class="fas fa-globe text-blue-500 mr-2"></i> {{ profile.contact.email.general }}</li>
             </ul>
           </div>
         </div>
@@ -98,5 +98,6 @@
 </template>
 
 <script setup>
+const { profile } = useProfile()
 useScrollReveal()
 </script>

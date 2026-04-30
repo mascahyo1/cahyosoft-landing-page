@@ -447,15 +447,15 @@
                 <!-- Stats -->
                 <div class="grid grid-cols-3 gap-4 text-center">
                   <div>
-                    <div class="text-2xl font-extrabold text-blue-600 dark:text-blue-400">5+</div>
+                    <div class="text-2xl font-extrabold text-blue-600 dark:text-blue-400">{{ profile.company.yearsExperience }}+</div>
                     <div class="text-xs text-gray-500 dark:text-gray-400 mt-1">Tahun Pengalaman</div>
                   </div>
                   <div>
-                    <div class="text-2xl font-extrabold text-emerald-600 dark:text-emerald-400">100+</div>
+                    <div class="text-2xl font-extrabold text-emerald-600 dark:text-emerald-400">{{ profile.company.totalClients }}+</div>
                     <div class="text-xs text-gray-500 dark:text-gray-400 mt-1">Klien Puas</div>
                   </div>
                   <div>
-                    <div class="text-2xl font-extrabold text-indigo-600 dark:text-indigo-400">50+</div>
+                    <div class="text-2xl font-extrabold text-indigo-600 dark:text-indigo-400">{{ profile.company.totalProjects }}+</div>
                     <div class="text-xs text-gray-500 dark:text-gray-400 mt-1">Proyek Selesai</div>
                   </div>
                 </div>
@@ -537,10 +537,10 @@
             Konsultasikan kebutuhan teknologi bisnis Anda dengan tim ahli kami sekarang juga secara gratis.
           </p>
           <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="https://wa.me/6281234567890" class="inline-flex items-center gap-3 rounded-xl bg-white px-8 py-4 text-lg font-bold text-blue-600 shadow-lg hover:bg-blue-50 hover:shadow-xl hover:-translate-y-0.5 transition-all active:scale-95">
+            <a v-if="waLink()" :href="waLink()" class="inline-flex items-center gap-3 rounded-xl bg-white px-8 py-4 text-lg font-bold text-blue-600 shadow-lg hover:bg-blue-50 hover:shadow-xl hover:-translate-y-0.5 transition-all active:scale-95">
               <i class="fab fa-whatsapp text-2xl"></i> Hubungi via WhatsApp
             </a>
-            <a href="mailto:info@cahyosoft.com" class="inline-flex items-center gap-2 rounded-xl border-2 border-white/30 px-6 py-4 text-white font-semibold hover:bg-white/10 transition-colors">
+            <a v-if="mailTo('general')" :href="mailTo('general')" class="inline-flex items-center gap-2 rounded-xl border-2 border-white/30 px-6 py-4 text-white font-semibold hover:bg-white/10 transition-colors">
               <i class="fas fa-envelope"></i> Email Kami
             </a>
           </div>
@@ -551,5 +551,5 @@
 </template>
 
 <script setup>
-// Single landing page — no additional logic needed
+const { profile, waLink, mailTo } = useProfile()
 </script>

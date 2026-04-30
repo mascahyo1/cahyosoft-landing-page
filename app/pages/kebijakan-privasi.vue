@@ -42,7 +42,7 @@
           <div>
             <h2 class="text-xl font-bold text-gray-900 dark:text-white mb-3">5. Hak Pengguna</h2>
             <p class="text-gray-600 dark:text-gray-400 leading-relaxed">
-              Anda memiliki hak untuk mengakses, memperbarui, menghapus, atau membatasi pemrosesan data pribadi Anda. Anda juga dapat menarik persetujuan kapan saja. Untuk menggunakan hak-hak ini, silakan hubungi kami melalui email di <a href="mailto:privacy@cahyosoft.com" class="text-blue-600 dark:text-blue-400 hover:underline">privacy@cahyosoft.com</a>.
+              Anda memiliki hak untuk mengakses, memperbarui, menghapus, atau membatasi pemrosesan data pribadi Anda. Anda juga dapat menarik persetujuan kapan saja. Untuk menggunakan hak-hak ini, silakan hubungi kami melalui email di <a v-if="mailTo('privacy')" :href="mailTo('privacy')" class="text-blue-600 dark:text-blue-400 hover:underline">{{ profile.contact.email.privacy }}</a>.
             </p>
           </div>
 
@@ -66,8 +66,8 @@
               Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, silakan hubungi kami di:
             </p>
             <ul class="mt-2 space-y-2 text-gray-600 dark:text-gray-400">
-              <li><i class="fas fa-envelope text-blue-500 mr-2"></i> privacy@cahyosoft.com</li>
-              <li><i class="fas fa-globe text-blue-500 mr-2"></i> www.cahyosoft.com</li>
+              <li v-if="profile.contact.email.privacy"><i class="fas fa-envelope text-blue-500 mr-2"></i> {{ profile.contact.email.privacy }}</li>
+              <li v-if="profile.contact.email.general"><i class="fas fa-globe text-blue-500 mr-2"></i> {{ profile.contact.email.general }}</li>
             </ul>
           </div>
         </div>
@@ -77,5 +77,6 @@
 </template>
 
 <script setup>
+const { profile, mailTo } = useProfile()
 useScrollReveal()
 </script>

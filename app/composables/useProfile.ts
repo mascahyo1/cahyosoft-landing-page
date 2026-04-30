@@ -1,5 +1,5 @@
 import type { Profile } from '~/types/profile'
-import profileData from '~/data/profile.json'
+import profileData from '../data/profile.json'
 
 export function useProfile() {
   const profile = profileData as Profile
