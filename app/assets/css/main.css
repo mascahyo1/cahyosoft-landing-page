@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "flowbite";
+
+/* Custom Cahyosoft Styles */
+:root {
+  --color-primary: #3b82f6; /* Modern Blue */
+}
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900 dark:text-gray-100 bg-white dark:bg-gray-900;
+  }
+}
