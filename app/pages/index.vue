@@ -257,6 +257,42 @@
               <span class="text-xs px-2.5 py-1 rounded-full bg-rose-100 dark:bg-rose-900/30 text-rose-700 dark:text-rose-300">Granular</span>
             </div>
           </div>
+
+          <!-- Tampilan Responsif -->
+          <div class="scroll-reveal group flex flex-col bg-gray-50 dark:bg-gray-800/50 p-6 rounded-2xl border border-gray-100 dark:border-gray-800 hover:shadow-lg hover:border-cyan-200 dark:hover:border-cyan-800 hover:bg-white dark:hover:bg-gray-800 transition-all duration-300" style="transition-delay: 0.3s;">
+            <div class="flex items-center gap-4 mb-4">
+              <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-100 to-cyan-200 dark:from-cyan-900/40 dark:to-cyan-800/40 text-cyan-600 dark:text-cyan-400 group-hover:scale-110 transition-transform duration-300">
+                <i class="fas fa-tablet-screen-button text-xl"></i>
+              </div>
+              <h3 class="text-lg font-bold text-gray-900 dark:text-white">Tampilan Responsif</h3>
+            </div>
+            <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed flex-1">
+              Desain fully responsive yang beradaptasi sempurna di semua ukuran layar — dari smartphone, tablet, hingga desktop. Mobile-first approach dengan touch-friendly UI components.
+            </p>
+            <div class="mt-4 flex flex-wrap gap-2">
+              <span class="text-xs px-2.5 py-1 rounded-full bg-cyan-100 dark:bg-cyan-900/30 text-cyan-700 dark:text-cyan-300">Mobile-first</span>
+              <span class="text-xs px-2.5 py-1 rounded-full bg-cyan-100 dark:bg-cyan-900/30 text-cyan-700 dark:text-cyan-300">Adaptive</span>
+              <span class="text-xs px-2.5 py-1 rounded-full bg-cyan-100 dark:bg-cyan-900/30 text-cyan-700 dark:text-cyan-300">Touch UI</span>
+            </div>
+          </div>
+
+          <!-- Real Time -->
+          <div class="scroll-reveal group flex flex-col bg-gray-50 dark:bg-gray-800/50 p-6 rounded-2xl border border-gray-100 dark:border-gray-800 hover:shadow-lg hover:border-teal-200 dark:hover:border-teal-800 hover:bg-white dark:hover:bg-gray-800 transition-all duration-300" style="transition-delay: 0.35s;">
+            <div class="flex items-center gap-4 mb-4">
+              <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-teal-100 to-teal-200 dark:from-teal-900/40 dark:to-teal-800/40 text-teal-600 dark:text-teal-400 group-hover:scale-110 transition-transform duration-300">
+                <i class="fas fa-clock-rotate-left text-xl"></i>
+              </div>
+              <h3 class="text-lg font-bold text-gray-900 dark:text-white">Real Time</h3>
+            </div>
+            <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed flex-1">
+              Update data secara instan tanpa refresh halaman dengan WebSocket dan Server-Sent Events. Notifikasi real-time, live dashboard, dan kolaborasi tim yang mulus dalam satu platform.
+            </p>
+            <div class="mt-4 flex flex-wrap gap-2">
+              <span class="text-xs px-2.5 py-1 rounded-full bg-teal-100 dark:bg-teal-900/30 text-teal-700 dark:text-teal-300">WebSocket</span>
+              <span class="text-xs px-2.5 py-1 rounded-full bg-teal-100 dark:bg-teal-900/30 text-teal-700 dark:text-teal-300">SSE</span>
+              <span class="text-xs px-2.5 py-1 rounded-full bg-teal-100 dark:bg-teal-900/30 text-teal-700 dark:text-teal-300">Live Sync</span>
+            </div>
+          </div>
         </div>
 
         <!-- Bottom highlight -->
