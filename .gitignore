@@ -1,3 +1,7 @@
+#ai model config
+.claude
+
+
 # Nuxt dev/build outputs
 .output
 .data
