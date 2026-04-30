@@ -6,8 +6,10 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "preview": "npm run build && wrangler dev",
+    "postinstall": "nuxt prepare",
+    "deploy": "npm run build && wrangler deploy",
+    "cf-typegen": "wrangler types"
   },
   "dependencies": {
     "nuxt": "^4.4.2",
@@ -19,6 +21,8 @@
     "@nuxtjs/color-mode": "^4.0.0",
     "@tailwindcss/vite": "^4.2.4",
     "flowbite": "^4.0.1",
-    "tailwindcss": "^4.0.0"
+    "nitro-cloudflare-dev": "^0.2.2",
+    "tailwindcss": "^4.0.0",
+    "wrangler": "^4.86.0"
   }
 }
