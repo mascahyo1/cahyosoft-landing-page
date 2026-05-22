@@ -293,6 +293,23 @@
               <span class="text-xs px-2.5 py-1 rounded-full bg-teal-100 dark:bg-teal-900/30 text-teal-700 dark:text-teal-300">Live Sync</span>
             </div>
           </div>
+
+          <!-- Automated Testing with Screenshot & Video -->
+          <div class="scroll-reveal group flex flex-col bg-gray-50 dark:bg-gray-800/50 p-6 rounded-2xl border border-gray-100 dark:border-gray-800 hover:shadow-lg hover:border-purple-200 dark:hover:border-purple-800 hover:bg-white dark:hover:bg-gray-800 transition-all duration-300" style="transition-delay: 0.4s;">
+            <div class="flex items-center gap-4 mb-4">
+              <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-purple-100 to-purple-200 dark:from-purple-900/40 dark:to-purple-800/40 text-purple-600 dark:text-purple-400 group-hover:scale-110 transition-transform duration-300">
+                <i class="fas fa-vials text-xl"></i>
+              </div>
+              <h3 class="text-lg font-bold text-gray-900 dark:text-white">Automated Testing</h3>
+            </div>
+            <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed flex-1">
+              Quality assurance yang lebih mudah dan confident dengan automated testing. Setiap pengujian dilengkapi screenshot dan video recording otomatis untuk validasi visual yang detail dan dokumentasi yang lengkap.
+            </p>
+            <div class="mt-4 flex flex-wrap gap-2">
+              <span class="text-xs px-2.5 py-1 rounded-full bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300">Screenshot</span>
+              <span class="text-xs px-2.5 py-1 rounded-full bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300">Video Recording</span>
+            </div>
+          </div>
         </div>
 
         <!-- Bottom highlight -->
