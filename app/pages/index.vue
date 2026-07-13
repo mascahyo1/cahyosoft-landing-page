@@ -571,6 +571,651 @@
       </div>
     </section>
 
+    <!-- Workflow Section: Plane.so Project Management -->
+    <section id="workflow" class="relative bg-white dark:bg-gray-900 py-24 sm:py-32 overflow-hidden">
+      <!-- Background decorative blobs -->
+      <div class="absolute inset-0 overflow-hidden pointer-events-none">
+        <div class="absolute top-1/4 -left-20 w-80 h-80 rounded-full bg-blue-400/10 dark:bg-blue-600/10 blur-3xl"></div>
+        <div class="absolute bottom-1/4 -right-20 w-96 h-96 rounded-full bg-indigo-400/10 dark:bg-indigo-600/10 blur-3xl"></div>
+      </div>
+
+      <div class="relative mx-auto max-w-7xl px-6">
+        <!-- Section Header -->
+        <div class="scroll-reveal mx-auto max-w-3xl text-center">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 text-sm font-medium mb-6">
+            <i class="fas fa-diagram-project text-xs"></i>
+            <span>Workflow Profesional</span>
+          </div>
+          <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+            Manajemen Proyek <span class="bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400 bg-clip-text text-transparent">Modern & Transparan</span>
+          </h2>
+          <p class="mt-4 text-lg text-gray-600 dark:text-gray-400">
+            Setiap request Anda dikelola di <strong>Plane.so</strong> — platform project management open-source — dengan bantuan <strong>MCP Notion</strong> untuk dokumentasi otomatis. Anda bisa melihat progress secara real-time.
+          </p>
+        </div>
+
+        <!-- Workflow Steps -->
+        <div class="scroll-reveal mt-12 grid gap-4 sm:grid-cols-4 max-w-5xl mx-auto">
+          <div class="relative flex flex-col items-center text-center p-5 rounded-2xl bg-gradient-to-br from-blue-50 to-blue-100/50 dark:from-blue-900/20 dark:to-blue-800/10 border border-blue-100 dark:border-blue-900/40">
+            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-blue-600 text-white text-lg font-bold mb-3 shadow-md shadow-blue-600/30">1</div>
+            <h3 class="font-bold text-gray-900 dark:text-white text-sm">Request Masuk</h3>
+            <p class="mt-1 text-xs text-gray-600 dark:text-gray-400">Anda mengirim brief kebutuhan</p>
+          </div>
+          <div class="relative flex flex-col items-center text-center p-5 rounded-2xl bg-gradient-to-br from-indigo-50 to-indigo-100/50 dark:from-indigo-900/20 dark:to-indigo-800/10 border border-indigo-100 dark:border-indigo-900/40">
+            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-600 text-white text-lg font-bold mb-3 shadow-md shadow-indigo-600/30">2</div>
+            <h3 class="font-bold text-gray-900 dark:text-white text-sm">AI Bikin Task</h3>
+            <p class="mt-1 text-xs text-gray-600 dark:text-gray-400">Otomatis dibuat di Plane.so</p>
+          </div>
+          <div class="relative flex flex-col items-center text-center p-5 rounded-2xl bg-gradient-to-br from-violet-50 to-violet-100/50 dark:from-violet-900/20 dark:to-violet-800/10 border border-violet-100 dark:border-violet-900/40">
+            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-violet-600 text-white text-lg font-bold mb-3 shadow-md shadow-violet-600/30">3</div>
+            <h3 class="font-bold text-gray-900 dark:text-white text-sm">Eksekusi & Test</h3>
+            <p class="mt-1 text-xs text-gray-600 dark:text-gray-400">Dev kerja, auto-update progress</p>
+          </div>
+          <div class="relative flex flex-col items-center text-center p-5 rounded-2xl bg-gradient-to-br from-emerald-50 to-emerald-100/50 dark:from-emerald-900/20 dark:to-emerald-800/10 border border-emerald-100 dark:border-emerald-900/40">
+            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-emerald-600 text-white text-lg font-bold mb-3 shadow-md shadow-emerald-600/30">4</div>
+            <h3 class="font-bold text-gray-900 dark:text-white text-sm">Dokumentasi</h3>
+            <p class="mt-1 text-xs text-gray-600 dark:text-gray-400">Auto-publish ke Notion + screenshot</p>
+          </div>
+        </div>
+
+        <!-- Plane.so Kanban Mockup -->
+        <div class="scroll-reveal mt-16">
+          <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl border border-gray-200 dark:border-gray-700 overflow-hidden">
+            <!-- Kanban Header -->
+            <div class="bg-gradient-to-r from-gray-900 to-gray-800 dark:from-gray-950 dark:to-gray-900 px-5 py-3 flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <div class="flex items-center gap-1.5">
+                  <div class="w-3 h-3 rounded-full bg-red-400"></div>
+                  <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
+                  <div class="w-3 h-3 rounded-full bg-green-400"></div>
+                </div>
+                <div class="flex items-center gap-2 ml-3">
+                  <i class="fas fa-layer-group text-blue-400 text-sm"></i>
+                  <span class="text-white font-semibold text-sm">Plane.so — Project Board</span>
+                </div>
+              </div>
+              <div class="hidden sm:flex items-center gap-2 text-xs text-gray-300">
+                <span class="px-2 py-1 rounded bg-white/10">Sprint 14</span>
+                <span class="px-2 py-1 rounded bg-emerald-500/20 text-emerald-300">
+                  <i class="fas fa-circle text-[8px] mr-1"></i>On Track
+                </span>
+              </div>
+            </div>
+
+            <!-- Kanban Board -->
+            <div class="p-5 grid grid-cols-1 md:grid-cols-4 gap-4 bg-gray-50 dark:bg-gray-900/50">
+              <!-- Column: Backlog -->
+              <div class="bg-gray-100/70 dark:bg-gray-800/60 rounded-xl p-3">
+                <div class="flex items-center justify-between mb-3">
+                  <div class="flex items-center gap-2">
+                    <span class="w-2 h-2 rounded-full bg-gray-400"></span>
+                    <h4 class="font-semibold text-gray-700 dark:text-gray-300 text-sm">Backlog</h4>
+                  </div>
+                  <span class="text-xs text-gray-500 bg-white dark:bg-gray-900 px-2 py-0.5 rounded-full">4</span>
+                </div>
+                <div class="space-y-2">
+                  <div class="bg-white dark:bg-gray-900 rounded-lg p-3 border border-gray-200 dark:border-gray-700 shadow-sm">
+                    <div class="flex items-center gap-1.5 mb-1.5">
+                      <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400">CS-101</span>
+                      <span class="text-[10px] px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300">feature</span>
+                    </div>
+                    <p class="text-xs font-medium text-gray-800 dark:text-gray-200 leading-snug">Integrasi payment gateway Midtrans</p>
+                    <div class="flex items-center justify-between mt-2">
+                      <div class="flex -space-x-1.5">
+                        <div class="w-5 h-5 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 border-2 border-white dark:border-gray-900"></div>
+                      </div>
+                      <span class="text-[10px] text-gray-400">Mar 20</span>
+                    </div>
+                  </div>
+                  <div class="bg-white dark:bg-gray-900 rounded-lg p-3 border border-gray-200 dark:border-gray-700 shadow-sm">
+                    <div class="flex items-center gap-1.5 mb-1.5">
+                      <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400">CS-102</span>
+                      <span class="text-[10px] px-1.5 py-0.5 rounded bg-violet-100 dark:bg-violet-900/40 text-violet-700 dark:text-violet-300">research</span>
+                    </div>
+                    <p class="text-xs font-medium text-gray-800 dark:text-gray-200 leading-snug">Riset modul HRIS untuk retail</p>
+                    <div class="flex items-center justify-between mt-2">
+                      <div class="flex -space-x-1.5">
+                        <div class="w-5 h-5 rounded-full bg-gradient-to-br from-emerald-400 to-emerald-600 border-2 border-white dark:border-gray-900"></div>
+                      </div>
+                      <span class="text-[10px] text-gray-400">Mar 22</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column: In Progress -->
+              <div class="bg-amber-50/70 dark:bg-amber-900/10 rounded-xl p-3">
+                <div class="flex items-center justify-between mb-3">
+                  <div class="flex items-center gap-2">
+                    <span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
+                    <h4 class="font-semibold text-gray-700 dark:text-gray-300 text-sm">In Progress</h4>
+                  </div>
+                  <span class="text-xs text-amber-700 dark:text-amber-300 bg-white dark:bg-gray-900 px-2 py-0.5 rounded-full">2</span>
+                </div>
+                <div class="space-y-2">
+                  <div class="bg-white dark:bg-gray-900 rounded-lg p-3 border-l-4 border-amber-500 border-y border-r border-gray-200 dark:border-gray-700 shadow-sm">
+                    <div class="flex items-center gap-1.5 mb-1.5">
+                      <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400">CS-098</span>
+                      <span class="text-[10px] px-1.5 py-0.5 rounded bg-rose-100 dark:bg-rose-900/40 text-rose-700 dark:text-rose-300">urgent</span>
+                    </div>
+                    <p class="text-xs font-medium text-gray-800 dark:text-gray-200 leading-snug">Fix bug login session di mobile</p>
+                    <div class="flex items-center justify-between mt-2">
+                      <div class="flex -space-x-1.5">
+                        <div class="w-5 h-5 rounded-full bg-gradient-to-br from-rose-400 to-rose-600 border-2 border-white dark:border-gray-900"></div>
+                        <div class="w-5 h-5 rounded-full bg-gradient-to-br from-indigo-400 to-indigo-600 border-2 border-white dark:border-gray-900"></div>
+                      </div>
+                      <span class="text-[10px] text-amber-600 dark:text-amber-400 font-medium">65%</span>
+                    </div>
+                    <div class="mt-1.5 h-1 bg-gray-100 dark:bg-gray-800 rounded-full overflow-hidden">
+                      <div class="h-full bg-amber-500 rounded-full" style="width: 65%"></div>
+                    </div>
+                  </div>
+                  <div class="bg-white dark:bg-gray-900 rounded-lg p-3 border-l-4 border-amber-500 border-y border-r border-gray-200 dark:border-gray-700 shadow-sm">
+                    <div class="flex items-center gap-1.5 mb-1.5">
+                      <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400">CS-099</span>
+                      <span class="text-[10px] px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300">feature</span>
+                    </div>
+                    <p class="text-xs font-medium text-gray-800 dark:text-gray-200 leading-snug">Dashboard analytics untuk ERP</p>
+                    <div class="flex items-center justify-between mt-2">
+                      <div class="flex -space-x-1.5">
+                        <div class="w-5 h-5 rounded-full bg-gradient-to-br from-violet-400 to-violet-600 border-2 border-white dark:border-gray-900"></div>
+                      </div>
+                      <span class="text-[10px] text-amber-600 dark:text-amber-400 font-medium">40%</span>
+                    </div>
+                    <div class="mt-1.5 h-1 bg-gray-100 dark:bg-gray-800 rounded-full overflow-hidden">
+                      <div class="h-full bg-amber-500 rounded-full" style="width: 40%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column: In Review -->
+              <div class="bg-violet-50/70 dark:bg-violet-900/10 rounded-xl p-3">
+                <div class="flex items-center justify-between mb-3">
+                  <div class="flex items-center gap-2">
+                    <span class="w-2 h-2 rounded-full bg-violet-500"></span>
+                    <h4 class="font-semibold text-gray-700 dark:text-gray-300 text-sm">In Review</h4>
+                  </div>
+                  <span class="text-xs text-violet-700 dark:text-violet-300 bg-white dark:bg-gray-900 px-2 py-0.5 rounded-full">2</span>
+                </div>
+                <div class="space-y-2">
+                  <div class="bg-white dark:bg-gray-900 rounded-lg p-3 border-l-4 border-violet-500 border-y border-r border-gray-200 dark:border-gray-700 shadow-sm">
+                    <div class="flex items-center gap-1.5 mb-1.5">
+                      <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400">CS-095</span>
+                      <span class="text-[10px] px-1.5 py-0.5 rounded bg-emerald-100 dark:bg-emerald-900/40 text-emerald-700 dark:text-emerald-300">testing</span>
+                    </div>
+                    <p class="text-xs font-medium text-gray-800 dark:text-gray-200 leading-snug">QA testing modul inventory</p>
+                    <div class="flex items-center justify-between mt-2">
+                      <div class="flex -space-x-1.5">
+                        <div class="w-5 h-5 rounded-full bg-gradient-to-br from-emerald-400 to-emerald-600 border-2 border-white dark:border-gray-900"></div>
+                      </div>
+                      <span class="text-[10px] text-gray-400">PR #234</span>
+                    </div>
+                  </div>
+                  <div class="bg-white dark:bg-gray-900 rounded-lg p-3 border-l-4 border-violet-500 border-y border-r border-gray-200 dark:border-gray-700 shadow-sm">
+                    <div class="flex items-center gap-1.5 mb-1.5">
+                      <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400">CS-096</span>
+                      <span class="text-[10px] px-1.5 py-0.5 rounded bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300">docs</span>
+                    </div>
+                    <p class="text-xs font-medium text-gray-800 dark:text-gray-200 leading-snug">Auto-generate docs via MCP Notion</p>
+                    <div class="flex items-center justify-between mt-2">
+                      <div class="flex -space-x-1.5">
+                        <div class="w-5 h-5 rounded-full bg-gradient-to-br from-cyan-400 to-cyan-600 border-2 border-white dark:border-gray-900"></div>
+                      </div>
+                      <span class="text-[10px] text-gray-400">PR #235</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Column: Done -->
+              <div class="bg-emerald-50/70 dark:bg-emerald-900/10 rounded-xl p-3">
+                <div class="flex items-center justify-between mb-3">
+                  <div class="flex items-center gap-2">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                    <h4 class="font-semibold text-gray-700 dark:text-gray-300 text-sm">Done</h4>
+                  </div>
+                  <span class="text-xs text-emerald-700 dark:text-emerald-300 bg-white dark:bg-gray-900 px-2 py-0.5 rounded-full">3</span>
+                </div>
+                <div class="space-y-2">
+                  <div class="bg-white dark:bg-gray-900 rounded-lg p-3 border-l-4 border-emerald-500 border-y border-r border-gray-200 dark:border-gray-700 shadow-sm opacity-90">
+                    <div class="flex items-center gap-1.5 mb-1.5">
+                      <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400">CS-090</span>
+                      <i class="fas fa-check-circle text-emerald-500 text-[10px]"></i>
+                    </div>
+                    <p class="text-xs font-medium text-gray-800 dark:text-gray-200 leading-snug line-through opacity-70">Setup auth & RBAC system</p>
+                    <div class="flex items-center justify-between mt-2">
+                      <span class="text-[10px] text-emerald-600 dark:text-emerald-400 font-medium"><i class="fas fa-check mr-1"></i>Passed</span>
+                      <span class="text-[10px] text-gray-400">Mar 15</span>
+                    </div>
+                  </div>
+                  <div class="bg-white dark:bg-gray-900 rounded-lg p-3 border-l-4 border-emerald-500 border-y border-r border-gray-200 dark:border-gray-700 shadow-sm opacity-90">
+                    <div class="flex items-center gap-1.5 mb-1.5">
+                      <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400">CS-091</span>
+                      <i class="fas fa-check-circle text-emerald-500 text-[10px]"></i>
+                    </div>
+                    <p class="text-xs font-medium text-gray-800 dark:text-gray-200 leading-snug line-through opacity-70">Landing page responsive</p>
+                    <div class="flex items-center justify-between mt-2">
+                      <span class="text-[10px] text-emerald-600 dark:text-emerald-400 font-medium"><i class="fas fa-check mr-1"></i>Passed</span>
+                      <span class="text-[10px] text-gray-400">Mar 14</span>
+                    </div>
+                  </div>
+                  <div class="bg-white dark:bg-gray-900 rounded-lg p-3 border-l-4 border-emerald-500 border-y border-r border-gray-200 dark:border-gray-700 shadow-sm opacity-90">
+                    <div class="flex items-center gap-1.5 mb-1.5">
+                      <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400">CS-092</span>
+                      <i class="fas fa-check-circle text-emerald-500 text-[10px]"></i>
+                    </div>
+                    <p class="text-xs font-medium text-gray-800 dark:text-gray-200 leading-snug line-through opacity-70">Deploy VPS production</p>
+                    <div class="flex items-center justify-between mt-2">
+                      <span class="text-[10px] text-emerald-600 dark:text-emerald-400 font-medium"><i class="fas fa-check mr-1"></i>Passed</span>
+                      <span class="text-[10px] text-gray-400">Mar 12</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tool badges -->
+        <div class="scroll-reveal mt-8 flex flex-wrap items-center justify-center gap-3">
+          <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-xs font-medium">
+            <i class="fas fa-layer-group text-blue-500"></i> Plane.so
+          </span>
+          <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-xs font-medium">
+            <i class="fas fa-book text-gray-700 dark:text-gray-300"></i> Notion MCP
+          </span>
+          <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-xs font-medium">
+            <i class="fab fa-git-alt text-orange-500"></i> Git Workflow
+          </span>
+          <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-xs font-medium">
+            <i class="fas fa-robot text-violet-500"></i> AI Assistant
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Progress Reports Section -->
+    <section id="progress" class="relative bg-gradient-to-b from-gray-50 to-white dark:from-gray-800/50 dark:to-gray-900 py-24 sm:py-32 overflow-hidden">
+      <div class="relative mx-auto max-w-7xl px-6">
+        <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <!-- Left: Dashboard Mockup -->
+          <div class="scroll-reveal order-2 lg:order-1">
+            <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl border border-gray-200 dark:border-gray-700 overflow-hidden">
+              <!-- Dashboard Header -->
+              <div class="bg-gradient-to-r from-indigo-600 to-blue-600 dark:from-indigo-700 dark:to-blue-700 px-5 py-3 flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <i class="fas fa-chart-line text-white text-sm"></i>
+                  <span class="text-white font-semibold text-sm">Progress Report — Sprint 14</span>
+                </div>
+                <span class="text-white/80 text-xs">Auto-update: barusan</span>
+              </div>
+              <!-- Dashboard Content -->
+              <div class="p-5 space-y-5">
+                <!-- Sprint progress -->
+                <div>
+                  <div class="flex items-center justify-between mb-2">
+                    <span class="text-sm font-semibold text-gray-900 dark:text-white">Sprint Progress</span>
+                    <span class="text-sm font-bold text-blue-600 dark:text-blue-400">73%</span>
+                  </div>
+                  <div class="h-2.5 bg-gray-100 dark:bg-gray-900 rounded-full overflow-hidden">
+                    <div class="h-full bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full" style="width: 73%"></div>
+                  </div>
+                  <div class="flex justify-between mt-1 text-[10px] text-gray-500">
+                    <span>11/15 tasks selesai</span>
+                    <span>4 hari tersisa</span>
+                  </div>
+                </div>
+                <!-- Burndown Chart -->
+                <div>
+                  <div class="flex items-center justify-between mb-2">
+                    <span class="text-sm font-semibold text-gray-900 dark:text-white">Burndown Chart</span>
+                    <span class="text-xs text-emerald-600 dark:text-emerald-400 font-medium"><i class="fas fa-arrow-down mr-1"></i>On Track</span>
+                  </div>
+                  <div class="bg-gray-50 dark:bg-gray-900 rounded-lg p-3">
+                    <svg viewBox="0 0 300 100" class="w-full h-24" preserveAspectRatio="none">
+                      <!-- Grid lines -->
+                      <line x1="0" y1="25" x2="300" y2="25" stroke="currentColor" class="text-gray-200 dark:text-gray-700" stroke-width="0.5" stroke-dasharray="2,2"/>
+                      <line x1="0" y1="50" x2="300" y2="50" stroke="currentColor" class="text-gray-200 dark:text-gray-700" stroke-width="0.5" stroke-dasharray="2,2"/>
+                      <line x1="0" y1="75" x2="300" y2="75" stroke="currentColor" class="text-gray-200 dark:text-gray-700" stroke-width="0.5" stroke-dasharray="2,2"/>
+                      <!-- Ideal line -->
+                      <line x1="0" y1="10" x2="300" y2="90" stroke="currentColor" class="text-gray-400 dark:text-gray-600" stroke-width="1" stroke-dasharray="4,4"/>
+                      <!-- Actual line -->
+                      <polyline points="0,10 30,18 60,28 90,32 120,42 150,48 180,58 210,62" fill="none" stroke="url(#burndownGradient)" stroke-width="2.5" stroke-linejoin="round"/>
+                      <!-- Fill area -->
+                      <polygon points="0,10 30,18 60,28 90,32 120,42 150,48 180,58 210,62 210,90 0,90" fill="url(#burndownFill)" opacity="0.3"/>
+                      <!-- Data point -->
+                      <circle cx="210" cy="62" r="4" fill="#3b82f6" stroke="white" stroke-width="2"/>
+                      <defs>
+                        <linearGradient id="burndownGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                          <stop offset="0%" stop-color="#6366f1"/>
+                          <stop offset="100%" stop-color="#3b82f6"/>
+                        </linearGradient>
+                        <linearGradient id="burndownFill" x1="0%" y1="0%" x2="0%" y2="100%">
+                          <stop offset="0%" stop-color="#3b82f6"/>
+                          <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                    <div class="flex justify-between text-[10px] text-gray-500 mt-1">
+                      <span>Hari 1</span>
+                      <span>Hari 4</span>
+                      <span>Hari 7</span>
+                      <span>Hari 10</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- Velocity stats -->
+                <div class="grid grid-cols-3 gap-2">
+                  <div class="bg-blue-50 dark:bg-blue-900/20 rounded-lg p-2.5 text-center">
+                    <div class="text-lg font-bold text-blue-600 dark:text-blue-400">42</div>
+                    <div class="text-[10px] text-gray-500">Story Points</div>
+                  </div>
+                  <div class="bg-emerald-50 dark:bg-emerald-900/20 rounded-lg p-2.5 text-center">
+                    <div class="text-lg font-bold text-emerald-600 dark:text-emerald-400">38</div>
+                    <div class="text-[10px] text-gray-500">Completed</div>
+                  </div>
+                  <div class="bg-amber-50 dark:bg-amber-900/20 rounded-lg p-2.5 text-center">
+                    <div class="text-lg font-bold text-amber-600 dark:text-amber-400">4</div>
+                    <div class="text-[10px] text-gray-500">In Progress</div>
+                  </div>
+                </div>
+                <!-- Activity feed -->
+                <div>
+                  <div class="text-sm font-semibold text-gray-900 dark:text-white mb-2">Recent Activity</div>
+                  <div class="space-y-1.5">
+                    <div class="flex items-start gap-2 text-xs">
+                      <div class="w-5 h-5 rounded-full bg-gradient-to-br from-emerald-400 to-emerald-600 flex-shrink-0 mt-0.5"></div>
+                      <div class="flex-1">
+                        <p class="text-gray-700 dark:text-gray-300"><strong>AI Bot</strong> marked <span class="text-emerald-600 dark:text-emerald-400">CS-090</span> as done</p>
+                        <span class="text-[10px] text-gray-400">2 menit lalu</span>
+                      </div>
+                    </div>
+                    <div class="flex items-start gap-2 text-xs">
+                      <div class="w-5 h-5 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 flex-shrink-0 mt-0.5"></div>
+                      <div class="flex-1">
+                        <p class="text-gray-700 dark:text-gray-300"><strong>Arif</strong> created new task <span class="text-blue-600 dark:text-blue-400">CS-101</span></p>
+                        <span class="text-[10px] text-gray-400">15 menit lalu</span>
+                      </div>
+                    </div>
+                    <div class="flex items-start gap-2 text-xs">
+                      <div class="w-5 h-5 rounded-full bg-gradient-to-br from-violet-400 to-violet-600 flex-shrink-0 mt-0.5"></div>
+                      <div class="flex-1">
+                        <p class="text-gray-700 dark:text-gray-300"><strong>Notion MCP</strong> published docs <span class="text-violet-600 dark:text-violet-400">API v2.1</span></p>
+                        <span class="text-[10px] text-gray-400">1 jam lalu</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Text -->
+          <div class="scroll-reveal order-1 lg:order-2">
+            <h2 class="text-sm font-semibold text-indigo-600 dark:text-indigo-400 uppercase tracking-widest">Laporan Progress Real-Time</h2>
+            <p class="mt-3 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+              Anda Selalu Tahu <span class="bg-gradient-to-r from-indigo-600 to-blue-600 dark:from-indigo-400 dark:to-blue-400 bg-clip-text text-transparent">Posisi Proyek Anda</span>
+            </p>
+            <p class="mt-6 text-lg leading-relaxed text-gray-600 dark:text-gray-400">
+              Tidak ada lagi <em>"kabar kabarin aja ya"</em> yang gelap. Setiap task yang dibuat AI di <strong>Plane.so</strong> akan ter-update otomatis saat developer mengerjakannya — Anda bisa pantau sprint, burndown, dan velocity secara langsung.
+            </p>
+
+            <!-- Feature bullets -->
+            <div class="mt-8 space-y-4">
+              <div class="flex items-start gap-3">
+                <div class="flex-shrink-0 mt-1 w-8 h-8 rounded-lg bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center">
+                  <i class="fas fa-bolt text-blue-600 dark:text-blue-400 text-sm"></i>
+                </div>
+                <div>
+                  <h3 class="font-bold text-gray-900 dark:text-white">Update Otomatis via AI</h3>
+                  <p class="text-sm text-gray-600 dark:text-gray-400 mt-0.5">AI Agent membuat task, update status, dan menutup task begitu QA pass — tanpa input manual dari tim.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="flex-shrink-0 mt-1 w-8 h-8 rounded-lg bg-indigo-100 dark:bg-indigo-900/30 flex items-center justify-center">
+                  <i class="fas fa-chart-area text-indigo-600 dark:text-indigo-400 text-sm"></i>
+                </div>
+                <div>
+                  <h3 class="font-bold text-gray-900 dark:text-white">Burndown & Velocity</h3>
+                  <p class="text-sm text-gray-600 dark:text-gray-400 mt-0.5">Laporan sprint dengan visualisasi burndown chart, story points, dan metrik tim yang mudah dipahami.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="flex-shrink-0 mt-1 w-8 h-8 rounded-lg bg-violet-100 dark:bg-violet-900/30 flex items-center justify-center">
+                  <i class="fas fa-bell text-violet-600 dark:text-violet-400 text-sm"></i>
+                </div>
+                <div>
+                  <h3 class="font-bold text-gray-900 dark:text-white">Notifikasi Real-Time</h3>
+                  <p class="text-sm text-gray-600 dark:text-gray-400 mt-0.5">Dapatkan update langsung via email, WhatsApp, atau webhook saat ada task yang berubah statusnya.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="flex-shrink-0 mt-1 w-8 h-8 rounded-lg bg-emerald-100 dark:bg-emerald-900/30 flex items-center justify-center">
+                  <i class="fas fa-file-pdf text-emerald-600 dark:text-emerald-400 text-sm"></i>
+                </div>
+                <div>
+                  <h3 class="font-bold text-gray-900 dark:text-white">Export Laporan PDF</h3>
+                  <p class="text-sm text-gray-600 dark:text-gray-400 mt-0.5">Laporan mingguan/bulanan otomatis ter-generate dalam format PDF siap kirim ke stakeholder.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Documentation Section -->
+    <section id="dokumentasi" class="relative bg-white dark:bg-gray-900 py-24 sm:py-32 overflow-hidden">
+      <!-- Subtle pattern -->
+      <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(99,102,241,0.05),transparent_50%),radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.05),transparent_50%)] pointer-events-none"></div>
+
+      <div class="relative mx-auto max-w-7xl px-6">
+        <!-- Header -->
+        <div class="scroll-reveal mx-auto max-w-3xl text-center">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-violet-100 dark:bg-violet-900/40 text-violet-700 dark:text-violet-300 text-sm font-medium mb-6">
+            <i class="fas fa-book-open text-xs"></i>
+            <span>Dokumentasi Lengkap</span>
+          </div>
+          <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+            Dokumentasi <span class="bg-gradient-to-r from-violet-600 to-blue-600 dark:from-violet-400 dark:to-blue-400 bg-clip-text text-transparent">+ Screenshot</span> Otomatis
+          </h2>
+          <p class="mt-4 text-lg text-gray-600 dark:text-gray-400">
+            Begitu task <strong>passed</strong>, AI otomatis membuat dokumentasi lengkap di <strong>Notion</strong> lewat <strong>MCP Notion</strong> — lengkap dengan screenshot, snippet kode, dan panduan penggunaan.
+          </p>
+        </div>
+
+        <!-- Documentation Mockup -->
+        <div class="scroll-reveal mt-16 max-w-6xl mx-auto">
+          <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl border border-gray-200 dark:border-gray-700 overflow-hidden">
+            <!-- Docs Header -->
+            <div class="bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 border-b border-gray-200 dark:border-gray-700 px-5 py-2.5 flex items-center justify-between">
+              <div class="flex items-center gap-2">
+                <i class="fas fa-book text-gray-700 dark:text-gray-300"></i>
+                <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">Notion — Cahyosoft Docs</span>
+              </div>
+              <div class="hidden sm:flex items-center gap-2">
+                <span class="text-xs text-gray-500 dark:text-gray-400"><i class="fas fa-circle text-emerald-500 text-[8px] mr-1"></i>Auto-published 5m ago</span>
+              </div>
+            </div>
+            <div class="grid md:grid-cols-4 min-h-[420px]">
+              <!-- Sidebar -->
+              <div class="md:col-span-1 bg-gray-50 dark:bg-gray-900 border-r border-gray-200 dark:border-gray-700 p-4">
+                <div class="text-[10px] uppercase tracking-wider text-gray-500 font-semibold mb-2">Getting Started</div>
+                <ul class="space-y-1 mb-4">
+                  <li class="text-xs px-2 py-1.5 rounded bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 font-medium">
+                    <i class="fas fa-home text-[10px] mr-1.5"></i> Overview
+                  </li>
+                  <li class="text-xs px-2 py-1.5 rounded text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800">
+                    <i class="fas fa-rocket text-[10px] mr-1.5"></i> Quick Start
+                  </li>
+                  <li class="text-xs px-2 py-1.5 rounded text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800">
+                    <i class="fas fa-cog text-[10px] mr-1.5"></i> Installation
+                  </li>
+                </ul>
+                <div class="text-[10px] uppercase tracking-wider text-gray-500 font-semibold mb-2 mt-4">Modules</div>
+                <ul class="space-y-1 mb-4">
+                  <li class="text-xs px-2 py-1.5 rounded text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800">
+                    <i class="fas fa-users-cog text-[10px] mr-1.5"></i> HRIS
+                  </li>
+                  <li class="text-xs px-2 py-1.5 rounded text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800">
+                    <i class="fas fa-calculator text-[10px] mr-1.5"></i> Accounting
+                  </li>
+                  <li class="text-xs px-2 py-1.5 rounded text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800">
+                    <i class="fas fa-cash-register text-[10px] mr-1.5"></i> POS
+                  </li>
+                </ul>
+                <div class="text-[10px] uppercase tracking-wider text-gray-500 font-semibold mb-2 mt-4">API Reference</div>
+                <ul class="space-y-1">
+                  <li class="text-xs px-2 py-1.5 rounded text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800">
+                    <i class="fas fa-code text-[10px] mr-1.5"></i> Authentication
+                  </li>
+                  <li class="text-xs px-2 py-1.5 rounded text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800">
+                    <i class="fas fa-database text-[10px] mr-1.5"></i> Endpoints
+                  </li>
+                </ul>
+              </div>
+
+              <!-- Content -->
+              <div class="md:col-span-3 p-6 bg-white dark:bg-gray-800">
+                <div class="flex items-center gap-2 text-xs text-gray-500 mb-2">
+                  <span>Docs</span>
+                  <i class="fas fa-chevron-right text-[8px]"></i>
+                  <span>Sprint 14</span>
+                  <i class="fas fa-chevron-right text-[8px]"></i>
+                  <span class="text-blue-600 dark:text-blue-400 font-medium">CS-090: Auth & RBAC</span>
+                </div>
+                <h1 class="text-2xl font-bold text-gray-900 dark:text-white mb-1">Autentikasi & Role-Based Access Control</h1>
+                <p class="text-sm text-gray-500 dark:text-gray-400 mb-4">Sistem keamanan enterprise-grade untuk modul ERP · Update: 5 menit lalu</p>
+
+                <!-- Tags -->
+                <div class="flex flex-wrap items-center gap-2 mb-5 pb-4 border-b border-gray-100 dark:border-gray-700">
+                  <span class="text-[10px] px-2 py-1 rounded bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">backend</span>
+                  <span class="text-[10px] px-2 py-1 rounded bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300">security</span>
+                  <span class="text-[10px] px-2 py-1 rounded bg-violet-100 dark:bg-violet-900/30 text-violet-700 dark:text-violet-300">sprint-14</span>
+                  <span class="text-[10px] px-2 py-1 rounded bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 font-medium"><i class="fas fa-check mr-1"></i>Passed</span>
+                </div>
+
+                <!-- Content sections -->
+                <h2 class="text-base font-bold text-gray-900 dark:text-white mb-2">📋 Ringkasan Task</h2>
+                <p class="text-sm text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+                  Task <code class="px-1.5 py-0.5 rounded bg-gray-100 dark:bg-gray-900 text-xs">CS-090</code> telah diselesaikan dan passed semua unit test (47/47 ✅). Sistem auth mendukung multi-role, JWT refresh token, dan audit log lengkap.
+                </p>
+
+                <h2 class="text-base font-bold text-gray-900 dark:text-white mb-2">📸 Screenshot</h2>
+                <div class="grid grid-cols-2 gap-3 mb-4">
+                  <!-- Screenshot 1 -->
+                  <div class="rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700 shadow-sm">
+                    <div class="bg-gradient-to-br from-blue-100 to-indigo-100 dark:from-blue-900/30 dark:to-indigo-900/30 p-4 h-28 flex items-center justify-center">
+                      <div class="bg-white dark:bg-gray-800 rounded shadow-sm p-2 w-full">
+                        <div class="flex items-center gap-1 mb-1.5">
+                          <div class="w-1.5 h-1.5 rounded-full bg-red-400"></div>
+                          <div class="w-1.5 h-1.5 rounded-full bg-yellow-400"></div>
+                          <div class="w-1.5 h-1.5 rounded-full bg-green-400"></div>
+                        </div>
+                        <div class="h-1 bg-gray-200 dark:bg-gray-700 rounded w-3/4 mb-1"></div>
+                        <div class="h-1 bg-gray-200 dark:bg-gray-700 rounded w-1/2 mb-2"></div>
+                        <div class="h-3 bg-blue-500 rounded w-full"></div>
+                      </div>
+                    </div>
+                    <div class="px-2 py-1.5 bg-gray-50 dark:bg-gray-900 text-[10px] text-gray-600 dark:text-gray-400 flex items-center justify-between">
+                      <span><i class="fas fa-image mr-1"></i>login-page.png</span>
+                      <span>240 KB</span>
+                    </div>
+                  </div>
+                  <!-- Screenshot 2 -->
+                  <div class="rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700 shadow-sm">
+                    <div class="bg-gradient-to-br from-emerald-100 to-teal-100 dark:from-emerald-900/30 dark:to-teal-900/30 p-4 h-28 flex items-center justify-center">
+                      <div class="bg-white dark:bg-gray-800 rounded shadow-sm p-2 w-full">
+                        <div class="flex items-center gap-1 mb-1.5">
+                          <div class="w-2 h-2 rounded-full bg-emerald-500"></div>
+                          <div class="h-1 bg-gray-200 dark:bg-gray-700 rounded flex-1"></div>
+                        </div>
+                        <div class="grid grid-cols-3 gap-1">
+                          <div class="h-4 bg-blue-100 dark:bg-blue-900/30 rounded"></div>
+                          <div class="h-4 bg-emerald-100 dark:bg-emerald-900/30 rounded"></div>
+                          <div class="h-4 bg-violet-100 dark:bg-violet-900/30 rounded"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="px-2 py-1.5 bg-gray-50 dark:bg-gray-900 text-[10px] text-gray-600 dark:text-gray-400 flex items-center justify-between">
+                      <span><i class="fas fa-image mr-1"></i>dashboard-rbac.png</span>
+                      <span>318 KB</span>
+                    </div>
+                  </div>
+                </div>
+
+                <h2 class="text-base font-bold text-gray-900 dark:text-white mb-2">💻 Snippet Kode</h2>
+                <div class="bg-gray-900 dark:bg-gray-950 rounded-lg p-3 mb-4 font-mono text-xs overflow-x-auto">
+                  <div class="flex items-center justify-between mb-2">
+                    <span class="text-gray-400 text-[10px]">typescript · auth.service.ts</span>
+                    <button class="text-gray-400 hover:text-white text-[10px]"><i class="fas fa-copy mr-1"></i>Copy</button>
+                  </div>
+                  <pre class="text-blue-300"><span class="text-violet-400">async function</span> <span class="text-yellow-300">login</span>(email: <span class="text-green-300">string</span>, pwd: <span class="text-green-300">string</span>) {
+  <span class="text-violet-400">const</span> user = <span class="text-violet-400">await</span> <span class="text-yellow-300">verifyCredentials</span>(email, pwd);
+  <span class="text-violet-400">const</span> token = <span class="text-yellow-300">signJWT</span>({ id: user.id, role: user.role });
+  <span class="text-violet-4 00">return</span> { token, refreshToken: <span class="text-yellow-300">genRefresh</span>() };
+}</pre>
+                </div>
+
+                <h2 class="text-base font-bold text-gray-900 dark:text-white mb-2">✅ Test Coverage</h2>
+                <div class="space-y-1.5">
+                  <div class="flex items-center justify-between text-xs">
+                    <span class="text-gray-700 dark:text-gray-300">Unit Tests</span>
+                    <span class="font-mono font-bold text-emerald-600 dark:text-emerald-400">47 / 47 ✓</span>
+                  </div>
+                  <div class="flex items-center justify-between text-xs">
+                    <span class="text-gray-700 dark:text-gray-300">Integration Tests</span>
+                    <span class="font-mono font-bold text-emerald-600 dark:text-emerald-400">12 / 12 ✓</span>
+                  </div>
+                  <div class="flex items-center justify-between text-xs">
+                    <span class="text-gray-700 dark:text-gray-300">E2E (Playwright)</span>
+                    <span class="font-mono font-bold text-emerald-600 dark:text-emerald-400">8 / 8 ✓</span>
+                  </div>
+                  <div class="flex items-center justify-between text-xs">
+                    <span class="text-gray-700 dark:text-gray-300">Security Audit</span>
+                    <span class="font-mono font-bold text-emerald-600 dark:text-emerald-400">PASS</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Documentation feature cards -->
+        <div class="scroll-reveal mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <div class="bg-gradient-to-br from-blue-50 to-blue-100/50 dark:from-blue-900/20 dark:to-blue-800/10 p-5 rounded-2xl border border-blue-100 dark:border-blue-900/40">
+            <div class="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center mb-3">
+              <i class="fas fa-camera-retro"></i>
+            </div>
+            <h3 class="font-bold text-gray-900 dark:text-white text-sm">Auto Screenshot</h3>
+            <p class="text-xs text-gray-600 dark:text-gray-400 mt-1">Setiap UI selesai, AI ambil screenshot & simpan ke docs.</p>
+          </div>
+          <div class="bg-gradient-to-br from-indigo-50 to-indigo-100/50 dark:from-indigo-900/20 dark:to-indigo-800/10 p-5 rounded-2xl border border-indigo-100 dark:border-indigo-900/40">
+            <div class="w-10 h-10 rounded-xl bg-indigo-600 text-white flex items-center justify-center mb-3">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="font-bold text-gray-900 dark:text-white text-sm">Snippet Code</h3>
+            <p class="text-xs text-gray-600 dark:text-gray-400 mt-1">Potongan kode penting otomatis ter-embed dengan syntax highlight.</p>
+          </div>
+          <div class="bg-gradient-to-br from-violet-50 to-violet-100/50 dark:from-violet-900/20 dark:to-violet-800/10 p-5 rounded-2xl border border-violet-100 dark:border-violet-900/40">
+            <div class="w-10 h-10 rounded-xl bg-violet-600 text-white flex items-center justify-center mb-3">
+              <i class="fas fa-vial"></i>
+            </div>
+            <h3 class="font-bold text-gray-900 dark:text-white text-sm">Test Coverage</h3>
+            <p class="text-xs text-gray-600 dark:text-gray-400 mt-1">Laporan unit, integration, dan E2E test otomatis tercatat.</p>
+          </div>
+          <div class="bg-gradient-to-br from-emerald-50 to-emerald-100/50 dark:from-emerald-900/20 dark:to-emerald-800/10 p-5 rounded-2xl border border-emerald-100 dark:border-emerald-900/40">
+            <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center mb-3">
+              <i class="fas fa-share-nodes"></i>
+            </div>
+            <h3 class="font-bold text-gray-900 dark:text-white text-sm">Share Link</h3>
+            <p class="text-xs text-gray-600 dark:text-gray-400 mt-1">Docs di-publish ke Notion, bisa di-share via link publik.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- CTA Section -->
     <section id="kontak" class="relative isolate overflow-hidden bg-gradient-to-br from-blue-600 via-blue-700 to-indigo-700 dark:from-blue-800 dark:via-blue-900 dark:to-indigo-900 py-16 sm:py-24">
       <!-- Decorative blobs -->

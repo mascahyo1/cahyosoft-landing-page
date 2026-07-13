@@ -39,6 +39,12 @@
               <NuxtLink to="#erp" class="block py-2 px-3 rounded md:p-0 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500" @click="mobileOpen = false">Solusi ERP</NuxtLink>
             </li>
             <li>
+              <NuxtLink to="#workflow" class="block py-2 px-3 rounded md:p-0 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500" @click="mobileOpen = false">Workflow</NuxtLink>
+            </li>
+            <li>
+              <NuxtLink to="#dokumentasi" class="block py-2 px-3 rounded md:p-0 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500" @click="mobileOpen = false">Dokumentasi</NuxtLink>
+            </li>
+            <li>
               <NuxtLink to="#tentang" class="block py-2 px-3 rounded md:p-0 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent md:dark:hover:text-blue-500" @click="mobileOpen = false">Tentang</NuxtLink>
             </li>
             <li>
@@ -82,6 +88,8 @@
                 <li><NuxtLink to="/#layanan" class="hover:underline">Konsultasi Web</NuxtLink></li>
                 <li><NuxtLink to="/#layanan" class="hover:underline">Custom Web Dev</NuxtLink></li>
                 <li><NuxtLink to="/#erp" class="hover:underline">Solusi ERP</NuxtLink></li>
+                <li><NuxtLink to="/#workflow" class="hover:underline">Workflow & Progress</NuxtLink></li>
+                <li><NuxtLink to="/#dokumentasi" class="hover:underline">Dokumentasi</NuxtLink></li>
                 <li><NuxtLink to="/#kontak" class="hover:underline">Konsultasi Gratis</NuxtLink></li>
               </ul>
             </div>
