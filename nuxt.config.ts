@@ -4,9 +4,8 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  
-  modules: ['@nuxtjs/color-mode'],
-  
+  modules: ["nitro-cloudflare-dev"],
+
   colorMode: {
     classSuffix: '',
     preference: 'system',
@@ -40,6 +39,15 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
         { rel: 'alternate icon', type: 'image/x-icon', href: '/favicon.ico' }
       ]
+    }
+  },
+
+  nitro: {
+    preset: "cloudflare_module",
+
+    cloudflare: {
+      deployConfig: true,
+      nodeCompat: true
     }
   }
 })
